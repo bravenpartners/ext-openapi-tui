@@ -1,0 +1,16 @@
+name: ext-openapi-tui
+id: ari:cloud:compass:bd84269d-c4b7-445c-9188-ea186927d000:component/030567c5-b655-4ed3-b52c-326da8d1b1bd/fb14487f-2dc0-488a-bd37-cbc3a3178b49
+description: Terminal UI to list, browse and run APIs defined with openapi spec.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/bravenpartners/ext-openapi-tui
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
