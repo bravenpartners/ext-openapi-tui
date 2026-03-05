@@ -123,7 +123,7 @@ impl RequestPane {
     Ok(())
   }
 
-  fn nested_schema_path_line(&self) -> Line {
+  fn nested_schema_path_line(&self) -> Line<'_> {
     let schema_path = self.schema_viewer.schema_path();
     if schema_path.is_empty() {
       return Line::default();
